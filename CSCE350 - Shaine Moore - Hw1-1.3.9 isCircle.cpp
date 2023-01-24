@@ -8,10 +8,10 @@
 #include <cmath>
 using namespace std;
  
-// Function to find the circle on
-// which the given three points lie
-//int givenPoints[3][2] = {{-1,-1}, {0,0}, {1,1}}; // non circle points
-//int givenPoints[3][2] = {{0,1}, {0,-1}, {0,0}}; // non circle points
+//Function to find a circle composed of 3 points. 
+//If not a circle, then will exit at the calculation for f in the circle equation.
+//int givenPoints[3][2] = {{-1,-1}, {0,0}, {1,1}}; // non circle points (test case)
+//int givenPoints[3][2] = {{0,1}, {0,-1}, {0,0}}; // non circle points (test case)
 int givenPoints[3][2] = {{-6,3}, {-3,2}, {0,3}};
 int numPoints = *(&givenPoints+1)-givenPoints;
 
